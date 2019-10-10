@@ -50,8 +50,8 @@ def segment():
 		elif 3<=row_list[i][0]<=5 and 1<=row_list[i][1]<=3:
 			seg[10] = seg[10]+1
 
-#there are some order in order history table for which there's no product associated in product order table.
-#that is why i had used exception handling to avoid error.
+#There are some 'order' in order history table for which there's no product associated in product order table.
+#That is why I had used exception handling to avoid error.
 best_p = []
 def bestproduct(cus_list, o_list):
 	for i in range(len(cus_list)): 
